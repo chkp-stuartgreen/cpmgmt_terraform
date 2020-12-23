@@ -1,5 +1,5 @@
 # Subscription ID - make sure you have az cli installed and logged in to your Azure account
-subscription_id = ""
+#subscription_id = ""
 
 # Where do you want the management server deployed
 az_location = "West Europe"
