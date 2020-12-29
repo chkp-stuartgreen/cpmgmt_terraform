@@ -25,11 +25,11 @@ log_server_name = "CPLogServer"
 # admin_password
 #admin_password = ""
 
-# admin username
+# admin username - required by template but not used. defaults to 'admin'
 
 admin_username = "sysadmin"
 
-# admin_password_hash
+# admin_password_hash - not yet used ...
 admin_password_hash = "hash_here"
 
 #Build cloud_config here
