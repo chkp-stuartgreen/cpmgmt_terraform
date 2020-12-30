@@ -65,3 +65,10 @@ variable "admin_username" {
 variable "cloud_config_string" {
     type = string
 }
+
+variable "admin_public_key_file_path" {
+  type = string
+  description = "Path to public key file for authentication. If provided, will disable interactive auth"
+  default = ""
+}
+

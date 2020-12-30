@@ -23,11 +23,11 @@ rg_name = "CPMgmtRG"
 log_server_name = "CPLogServer"
 
 # admin_password
-#admin_password = ""
+# Don't store this here, provide it elsewhere :)
 
 # admin username - required by template but not used. defaults to 'admin'
 
-admin_username = "sysadmin"
+admin_username = "notused"
 
 # admin_password_hash - not yet used ...
 admin_password_hash = "hash_here"
@@ -36,3 +36,5 @@ admin_password_hash = "hash_here"
 
 cloud_config_string = ""
 
+# Leave blank if you want to use interactive auth
+admin_public_key_file_path = "./azuretest.pri.pub"
